@@ -1,0 +1,16 @@
+{
+	"properties": "1699279567437",
+	"root": "1699279592742",
+	"nodes": {
+		"geo1": "1699279592742",
+		"geo1/MAT": "1699279592742",
+		"geo1/actor1": "1699279592742",
+		"lights": "1699279592742",
+		"cameras": "1699279567437",
+		"cameras/cameraControls1": "1699279567437"
+	},
+	"shaders": {},
+	"jsFunctionBodies": {
+		"/geo1/actor1": "1699279592742"
+	}
+}

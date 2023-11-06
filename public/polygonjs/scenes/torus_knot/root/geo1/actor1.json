@@ -1,0 +1,96 @@
+{
+	"type": "actor",
+	"nodes": {
+		"onTick1": {
+			"type": "onTick"
+		},
+		"floatToVec3_1": {
+			"type": "floatToVec3",
+			"params": {
+				"x": {
+					"overriden_options": {}
+				},
+				"y": {
+					"overriden_options": {}
+				},
+				"z": {
+					"overriden_options": {}
+				}
+			},
+			"inputs": [
+				null,
+				{
+					"index": 1,
+					"inputName": "y",
+					"node": "onTick1",
+					"output": "time"
+				}
+			]
+		},
+		"setObjectRotation1": {
+			"type": "setObjectRotation",
+			"maxInputsCount": 5,
+			"inputs": [
+				{
+					"index": 0,
+					"inputName": "trigger",
+					"node": "onTick1",
+					"output": "trigger"
+				},
+				null,
+				{
+					"index": 2,
+					"inputName": "Euler",
+					"node": "euler1",
+					"output": "Euler"
+				}
+			]
+		},
+		"euler1": {
+			"type": "euler",
+			"params": {
+				"Euler": {
+					"overriden_options": {}
+				},
+				"order": {
+					"overriden_options": {}
+				}
+			},
+			"inputs": [
+				{
+					"index": 0,
+					"inputName": "Euler",
+					"node": "floatToVec3_1",
+					"output": "vec3"
+				}
+			]
+		}
+	},
+	"inputs": ["material1"],
+	"flags": {
+		"display": true
+	},
+	"persisted_config": {
+		"variableNames": ["VAR__floatToVec3_1_", "VAR__euler1_Euler", "VAR__euler1__1"],
+		"variables": [
+			{
+				"type": "Vector3",
+				"data": [0, 0, 0]
+			},
+			{
+				"type": "Vector3",
+				"data": [0, 0, 0]
+			},
+			{
+				"type": "Euler",
+				"data": {
+					"rotation": [0, 0, 0, "XYZ"],
+					"rotationOrder": "XYZ"
+				}
+			}
+		],
+		"functionNames": ["globalsTime", "globalsTimeDelta", "floatToVec3", "eulerSetFromVector3", "setObjectRotation"],
+		"serializedParamConfigs": [],
+		"eventDatas": []
+	}
+}
