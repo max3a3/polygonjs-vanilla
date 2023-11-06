@@ -7,3 +7,6 @@ Created with [Polygonjs](https://polygonjs.com)
 -   3: open your browser on `http://localhost:8091`
 
 If you have any trouble installing it, the docs may be able to help: [https://polygonjs.com/docs/](https://polygonjs.com/docs/)
+
+
+![manual screenshot](https://github.com/polygonjs/vanilla-example/blob/main/public/polygonjs/screenshots/manual_screenshot.jpg?raw=true)
