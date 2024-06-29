@@ -4,7 +4,7 @@
 			"pos": [-50, -350],
 			"nodes": {
 				"sphere1": {
-					"pos": [0, 50]
+					"pos": [50, 50]
 				},
 				"transform1": {
 					"pos": [0, 200]
@@ -12,8 +12,14 @@
 				"material1": {
 					"pos": [0, 350]
 				},
+				"plane1": {
+					"pos": [-200, -50]
+				},
+				"transform2": {
+					"pos": [-200, 200]
+				},
 				"MAT": {
-					"pos": [-200, 200],
+					"pos": [-200, 350],
 					"selection": ["meshStandard1"],
 					"nodes": {
 						"meshStandard1": {

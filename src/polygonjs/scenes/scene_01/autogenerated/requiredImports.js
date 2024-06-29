@@ -18,6 +18,7 @@ import { MaterialSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/
 import { MaterialsNetworkSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/MaterialsNetwork";
 import { MergeSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Merge";
 import { PerspectiveCameraSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/PerspectiveCamera";
+import { PlaneSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Plane";
 import { PolarTransformSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/PolarTransform";
 import { SphereSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Sphere";
 import { SpotLightSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/SpotLight";
@@ -40,6 +41,7 @@ export const requiredImports_scene_01 = {
     MaterialsNetworkSopNode,
     MergeSopNode,
     PerspectiveCameraSopNode,
+    PlaneSopNode,
     PolarTransformSopNode,
     SphereSopNode,
     SpotLightSopNode,

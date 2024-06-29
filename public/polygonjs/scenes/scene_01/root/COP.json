@@ -8,7 +8,7 @@
 		"imageEnv": {
 			"type": "imageEXR",
 			"params": {
-				"url": "textures/piz_compressed.exr",
+				"url": "textures/piz_compressed.exr?timestamp=1719621826310",
 				"tminFilter": true,
 				"tmagFilter": true,
 				"tanisotropy": true,
@@ -18,7 +18,7 @@
 		"image1": {
 			"type": "image",
 			"params": {
-				"url": "textures/uv.jpg"
+				"url": "textures/uv.jpg?timestamp=1719621828106"
 			}
 		}
 	}

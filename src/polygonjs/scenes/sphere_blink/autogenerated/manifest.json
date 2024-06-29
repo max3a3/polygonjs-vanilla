@@ -1,0 +1,14 @@
+{
+	"properties": "1719621871989",
+	"root": "1719621871989",
+	"nodes": {
+		"geo1": "1719621871989",
+		"geo1/MAT": "1719621871989",
+		"geo1/MAT/meshBasicBuilder1": "1719621871989",
+		"grid": "1719621871989",
+		"perspectiveCamera1": "1719621871989",
+		"perspectiveCamera1/events1": "1719621871989"
+	},
+	"shaders": {},
+	"jsFunctionBodies": {}
+}

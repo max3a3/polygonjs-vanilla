@@ -16,10 +16,20 @@
 			"params": {
 				"material": "../MAT/meshStandard1"
 			},
-			"inputs": ["transform1"],
+			"inputs": ["transform2"],
 			"flags": {
 				"display": true
 			}
+		},
+		"plane1": {
+			"type": "plane"
+		},
+		"transform2": {
+			"type": "transform",
+			"params": {
+				"t": [0.2352232828009273, 0.6060700638332683, 0.3650244874945058]
+			},
+			"inputs": ["plane1"]
 		}
 	},
 	"params": {

@@ -13,9 +13,12 @@ export interface LoadSceneOptions {
   loadModules?: boolean;
   runRegister?: boolean;
   configureSceneData?: ConfigureSceneData;
+  //
+  baseUrl?: string;
   sceneDataRoot?: string;
   assetsRoot?: string;
   libsRootPrefix?: string;
+  //
   autoPlay?: boolean;
   createViewer?: boolean;
   printWarnings?: boolean;

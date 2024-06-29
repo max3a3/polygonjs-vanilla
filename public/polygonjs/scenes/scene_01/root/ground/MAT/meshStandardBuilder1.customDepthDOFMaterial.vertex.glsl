@@ -1,4 +1,5 @@
 #include <common>
+#include <batching_pars_vertex>
 #include <uv_pars_vertex>
 #include <displacementmap_pars_vertex>
 #include <morphtarget_pars_vertex>
@@ -17,6 +18,7 @@ varying vec3 v_POLY_globals1_position;
 varying vec2 vHighPrecisionZW;
 void main() {
 	#include <uv_vertex>
+	#include <batching_vertex>
 	#include <skinbase_vertex>
 	#ifdef USE_DISPLACEMENTMAP
 // removed:

@@ -32,32 +32,47 @@
 			"panel_data": {
 				"camera": {
 					"position": {
-						"x": 62.54553192632958,
-						"y": 223.1583293886238
+						"x": -126.07611245391797,
+						"y": -200.78260878391666
 					},
-					"zoom": 1.0222221069335933
+					"zoom": 1.135802341037326
 				},
-				"history": {},
+				"history": {
+					"2": {
+						"position": {
+							"x": 62.54553192632958,
+							"y": 223.1583293886238
+						},
+						"zoom": 1.0222221069335933
+					},
+					"36": {
+						"position": {
+							"x": -126.07611245391797,
+							"y": -200.78260878391666
+						},
+						"zoom": 1.135802341037326
+					}
+				},
 				"paramsDisplayed": false,
 				"linkIndex": 1
 			}
 		},
 		"split_mode": "horizontal"
 	},
-	"currentNodes": ["/", "/", "/", "/", "/", "/", "/", "/"],
+	"currentNodes": ["/geo1", "/", "/", "/", "/", "/", "/", "/"],
 	"navigationHistory": {
 		"nodePaths": {
-			"1": ["/"],
-			"2": ["/"],
-			"3": ["/"],
-			"4": ["/"],
-			"5": ["/"],
-			"6": ["/"],
-			"7": ["/"],
-			"8": ["/"]
+			"1": ["/", "/geo1", "/", "/geo1"],
+			"2": ["/", "/"],
+			"3": ["/", "/"],
+			"4": ["/", "/"],
+			"5": ["/", "/"],
+			"6": ["/", "/"],
+			"7": ["/", "/"],
+			"8": ["/", "/"]
 		},
 		"index": {
-			"1": 17,
+			"1": 1,
 			"2": 0,
 			"3": 0,
 			"4": 0,
@@ -69,12 +84,8 @@
 	},
 	"fullscreenPanelId": null,
 	"saveOptions": {
-		"createExport": false,
 		"checkRemoteAssetsUse": true,
-		"minimizeFilesCount": false,
-		"compressJs": true,
-		"createZip": false,
-		"runPostExportCommand": false
+		"minimizeFilesCount": false
 	},
 	"paramsModal": []
 }
