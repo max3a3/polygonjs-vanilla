@@ -1,42 +1,11 @@
 {
 	"type": "geo",
 	"nodes": {
-		"sphere1": {
-			"type": "sphere"
-		},
-		"transform1": {
-			"type": "transform",
+		"perspectiveCamera1": {
+			"type": "perspectiveCamera",
 			"params": {
-				"t": [0, 1, 0]
-			},
-			"inputs": ["sphere1"]
-		},
-		"material1": {
-			"type": "material",
-			"params": {
-				"material": "../MAT/meshStandard1"
-			},
-			"inputs": ["transform1"],
-			"flags": {
-				"display": true
+				"position": [3.3, 3.3, 3.3]
 			}
-		},
-		"plane1": {
-			"type": "plane"
-		},
-		"transform2": {
-			"type": "transform",
-			"params": {
-				"t": [0.2352232828009273, 0.6060700638332683, 0.3650244874945058]
-			},
-			"inputs": ["plane1"]
-		},
-		"material2": {
-			"type": "material",
-			"params": {
-				"material": "../MAT/meshMatcap1"
-			},
-			"inputs": ["transform1"]
 		}
 	},
 	"params": {

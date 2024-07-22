@@ -15,8 +15,14 @@
 		"meshMatcap1": {
 			"type": "meshMatcap",
 			"params": {
-				"useMatcapMap": true,
+				"useMatcapMap": 1,
 				"matcapMap": "../../../COP/matcap"
+			}
+		},
+		"meshBasic1": {
+			"type": "meshBasic",
+			"params": {
+				"color": [0.7083757798856457, 0.13286832154414627, 0.13286832154414627]
 			}
 		}
 	}
